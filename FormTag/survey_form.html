@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;color: antiquewhite;">
+    
+    <div>
+        <h1>Survey Form:</h1>
+        <hr>
+        
+        <form > 
+      
+          <div >        <!-- Name -->
+            <div>
+              <h3 >Customer Name :</h3>
+            </div>
+            <div >
+              <div >
+                <div  >Enter Your First Name</div>
+                <input type="text"  name="first name" required>
+              </div>
+              <div >
+                <div >Enter last First Name</div>
+                <input type="text"  name="last name" required>
+              </div>
+            </div>
+          </div>
+          
+      
+          <div >      <!-- Address -->
+            <div >
+              <h3>Address :</h3>
+            </div>
+              <div>
+                <div>Street Address</div>
+                <input type="text"name="address" required>
+              </div>
+            
+            <div>
+                <div >Street Address Line 2</div>
+                <input type="text"  name="street" required>
+            </div>
+      
+            <div>
+              <div>
+                <div >City</div>
+                <input type="text" name="city" required>
+              </div>
+              <div>
+                <div >State</div>
+                <input type="text" name="state" required>
+              </div>
+            </div>
+      
+            <div >
+              <div>
+                <div >Zip</div>
+                <input type="number" name="zip" required>
+              </div>
+              <div >Select Country</div>
+              <div >
+                <select name="country" required>
+                  <option value="select">--select--</option>
+                  <option value="India">India</option>
+                  <option value="Indonesia">Indonesia</option>
+                  <option value="Iran">Iran (Islamic Republic of)</option>
+                  <option value="Iraq">Iraq</option>
+                  <option value="Ireland">Ireland</option>
+                  <option value="Israel">Israel</option>
+                  <option value="Italy">Italy</option>
+                  <option value="Jamaica">Jamaica</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Jordan">Jordan</option>
+                  <option value="Kazakhstan">Kazakhstan</option>
+                  <option value="Kenya">Kenya</option>
+                  <option value="Kiribati">Kiribati</option>
+                  <option value="Democratic People's Republic of Korea">Korea, Democratic People's Republic of</option>
+                  <option value="Mali">Mali</option>
+                  <option value="Malta">Malta</option>
+                  <option value="Marshall Islands">Marshall Islands</option>
+                  <option value="Martinique">Martinique</option>
+                  <option value="Myanmar">Myanmar</option>
+                  <option value="Namibia">Namibia</option>
+                  
+                  <option value="Zimbabwe">Zimbabwe</option>
+                </select>
+                
+              </div>
+            </div>
+          </div>
+       
+      
+        
+            <div>
+              <h3>Contact : </h3>       <!-- contact  -->
+            </div>
+              <div >
+                <div>Phone</div>
+                <input type="tel"  name="contact" required>
+              </div>
+              <div>
+                <div >Email</div>
+                <input type="email"  name="email" required>
+              </div>
+            
+          
+   
+    
+            <div>
+              <h3 >Personal Details :</h3>       <!-- person detail  -->
+            </div>
+            
+              <div style="display: flex; gap:10px;">
+                <input type="radio" name="gender" value="male">
+                <label >Male</label><br>
+                <input type="radio" name="gender" value="female">
+                <label >Female</label><br>
+                <input type="radio" name="gender" value="other">
+                <label >Other</label><br>
+              </div>
+            
+          </div>
+          
+         
+            <div>
+              <h3>Rating : </h3>         <!--Rating-->
+            </div>
+    
+              <div style="display: flex; gap:10px;">
+                <input type="radio" name="abc" value="bad">
+                <label>Bad</label><br>
+                <input type="radio" name="abc" value="good">
+                <label >Good</label><br>
+                <input type="radio" name="abc" value="excelent">
+                <label >Excelent</label><br>
+              </div>
+            
+          </div>
+          <br>
+          
+      
+          <button type="submit"> Submit </button>
+      
+        </form>
+        
+      </div>
+</body>
+</html>
