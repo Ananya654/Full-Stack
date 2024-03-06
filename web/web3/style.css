@@ -1,0 +1,137 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+
+  }
+  .navbar{
+      background-color:  #000;
+      padding: 1rem 8rem;
+      z-index: 1000; 
+
+      
+  }
+  .navbar-expand-lg .navbar-collapse{
+      margin-right: 0px;
+  }
+  
+  .navbar .navbar-brand{
+      font-size: 1.4rem;
+      font-weight: 700;
+      padding-top: 1rem;
+      padding-bottom: 20px;
+      padding-left: 3rem;
+      margin-right:30px;
+  
+  }
+  
+  #navbarSupportedContent > ul > li:nth-child(n) > a{
+      color: #cedfd1;
+      font-size: 1.2rem;
+      padding: 0 0.8rem;
+      border: 1px solid transparent;
+      font-weight: 300;
+  
+  }
+  
+  #navbarSupportedContent > ul > li:nth-child(n) > a:hover { 
+  
+      background-color:rgb(11, 11, 11); 
+      color:#1c4b89;
+      border:1px solid white;
+      border-radius: 20px;
+  
+  }
+  
+  #navbarSupportedContent > button{
+      background-color:black ;
+      color: rgb(208, 233, 219);
+      border: 1px solid white;
+      font-weight: 700;
+      padding: 0.4rem 1.4rem ;
+      border-radius: 30px;
+      margin-right: 3rem 
+  } 
+  
+  .main{
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+  }
+  .main a.text-dark{
+      background-color:rgb(95, 176, 95) ;
+      font-weight: 600;
+      padding: 0.6rem 1.4rem ;
+      border-radius: 30px;
+      text-decoration: none;
+      color:#fff !important;
+  }
+  .main a.text-dark:hover{
+      background-color: white;
+      color: rgb(83, 192, 174) !important;
+  }
+  
+  video.embded-responsive{
+       width: 100%;
+       height: 800px;
+       pointer-events: none;
+       object-fit: cover;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+  }
+  
+  .overlay{
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+  
+    .overlaycontent{
+      color:rgb(55, 109, 109);
+      font-size:50px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 800;
+      
+    }
+  
+    h1{
+      color:rgb(79, 34, 86);
+    }
+  .frozen{
+      color: #39001e;
+  }
+  .bgimg{
+      background-image: url("./assets/ice5.jpeg");
+      background-size: cover;
+  }
+  
+  .form-control{
+      color: rgb(10, 105, 83) !important;
+      border: 1px solid black !important;
+  }
+  .form-control:focus{
+      box-shadow: 1px 2px 3px rgb(174, 222, 241) !important;
+  }
+    .invalid-feedback{
+      display: none !important;
+    }
+    .form-control.is-invalid{
+      background-image: none !important;
+    }
+  
+    .form-control.is-valid{
+   background-image: none !important;
+    }
+  
+    .form-check-label{
+      color: rgb(226, 22, 22) !important;
+    }
+  
+    .hello{
+      font-weight: 700;
+    }
+  
