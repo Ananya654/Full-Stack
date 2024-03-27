@@ -1,8 +1,8 @@
-//Write a program to print 1 to 10 numbers using a do while loop
+//Write a program to print 1 to 10  even numbers using For Loop
 
-let num =1;
-do{
-    console.log(num);
-    num++;
+for(let num = 1 ; num <= 10 ; num++){
+    if(num%2 == 0){
+        console.log(num + " is a even number.")
+    }
+    
 }
-while(num<=10);
