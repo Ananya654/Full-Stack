@@ -1,28 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <h1>Calculator</h1>
-    <div>
-        <form>
+<html>
+  <head>
+    <title>Calculator App</title>
+    <style>
+        body{
+            background-color: rgb(59, 57, 57);
+            color: beige;
+            position: absolute;
+        
+        }
+        h1{
+            text-align: center;
+            border: 5px solid rgb(5, 8, 9);
+            padding: 20px;
             
-        </form>
+        }
+        #div1{
+            position: relative;
+            text-align: center;
+            border: 5px solid rgb(3, 9, 11);
+            padding: 20px;
+            
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1>Calculator App</h1>
+    <div id="div1">
+    <div>
+    <label > Enter first number </label>
+    <input type="text" id="value1" style="background-color: rgb(120, 119, 119); color: beige;">
+    </div>
+    <br>
+    <div>
+    <select id="operator" style="background-color: rgb(120, 119, 119); color: beige;">
+      <option value="add">+</option>
+      <option value="subtract">-</option>
+      <option value="multiply">*</option>
+      <option value="divide">/</option> 
+    </select>
+    </div>
+    <br>
+    <div>
+    <label >Enter second number</label>
+    <input type="text" id="value2"  style="background-color: rgb(120, 119, 119); color: beige;">
+    </div>
+    <br>
+    <div>
+    <button onclick="calculate()" style="background-color: rgb(120, 119, 119); color: beige;">Calculate</button>
     </div>
 
+    <div>
+    <p id="result"></p>
+    </div>
 
-
-
-
-
-
-
-
-</body>
-<script src="./index.js" type="text/javascript"></script>
+</div>
+  </body>
+  <script src="./index.js" type="text/javascript"></script>
 </html>
