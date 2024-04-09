@@ -1,4 +1,5 @@
 //With filter method,without filter method.
+
 let emp=[{"id":1,"name":"Kendal","email":"kkowal0@fotki.com","gender":"Male"},
 {"id":2,"name":"Bryna","email":"bcoenraets1@reuters.com","gender":"Female"},
 {"id":3,"name":"Terrell","email":"taggett2@house.gov","gender":"Male"},
@@ -503,10 +504,10 @@ let emp=[{"id":1,"name":"Kendal","email":"kkowal0@fotki.com","gender":"Male"},
 
 
 //without filter method.
-// function male(emp) {
+//function male(emp) {
 //   return emp.gender == "Male";
-// }
-// console.log(result);
+//}
+//console.log(result);
 
 
 //with filter method.
