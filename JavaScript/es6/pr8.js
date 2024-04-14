@@ -4,7 +4,7 @@ class P{
 }
 
 class Money{
-
+    money = 50;
 
 }
 

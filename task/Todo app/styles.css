@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(24, 24, 24);
+    color: rgb(186, 239, 213);
+}
+
+
+#todo-list {
+    width: 400px;
+    margin: 0 auto;
+    
+
+}
+
+#task-list {
+    color: rgb(243, 237, 237);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#task-list li {
+    background-color: #202224;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#task-list li.process {
+    background-color: rgb(7, 58, 56);
+}
+
+#task-list li.done {
+    background-color: #531549;
+}
+
+
+
+#task-list li.deleted {
+    display: none;
+}
